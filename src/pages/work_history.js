@@ -3,9 +3,9 @@ import React from 'react';
 
 import Layout from '../components/layout';
 
-function IndexPage() {
+function WorkHistory() {
     const page_info = {
-        pageName: "index",
+        pageName: "work_history",
     };
     return (
         <Layout pageInfo={page_info}>
@@ -13,4 +13,4 @@ function IndexPage() {
     );
 }
 
-export default IndexPage
+export default WorkHistory;
